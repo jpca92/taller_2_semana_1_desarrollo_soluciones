@@ -28,6 +28,7 @@ def load_data():
     df = df.dropna(subset=['fecha'])
 
     df = df.set_index('fecha')
+    # aqui estuvo Andres Lenis
     return df
     
 
